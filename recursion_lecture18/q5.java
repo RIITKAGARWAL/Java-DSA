@@ -1,5 +1,5 @@
 
-//move all x to the end of the string //axbcxxd
+//move all x to the end of the string //axbcxxd = abcdxxx
 import java.util.Scanner;
 
 public class q5 {
