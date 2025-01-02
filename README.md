@@ -19,21 +19,21 @@ git clone https://github.com/RIITKAGARWAL/Java-DSA.git
 
 ## Directory Structure
 The repository is organized as follows:
-
-Java-DSA/
-├── Recursion/
-│   ├── Lecture17/
-│   ├── Lecture18/
-│   ├── Lecture19/
-│   └── Lecture20/
-├── Sorting/
-│   ├── MergeSort/
-│   └── QuickSort/
-├── LinkedList/
-│   └── Lecture27/
-├── Sudoku/
-│   └── Lecture21/
-└── README.md
+<br />
+Java-DSA/ <br />
+├── Recursion/ <br />
+│   ├── Lecture17/ <br />
+│   ├── Lecture18/ <br />
+│   ├── Lecture19/ <br />
+│   └── Lecture20/ <br />
+├── Sorting/ <br />
+│   ├── MergeSort/ <br />
+│   └── QuickSort/ <br />
+├── LinkedList/ <br />
+│   └── Lecture27/ <br />
+├── Sudoku/ <br />
+│   └── Lecture21/ <br />
+└── README.md <br />
 
 ## How to Use
 1. Clone the repository to your local machine.
