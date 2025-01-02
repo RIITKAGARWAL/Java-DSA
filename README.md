@@ -21,15 +21,20 @@ git clone https://github.com/RIITKAGARWAL/Java-DSA.git
 The repository is organized as follows:
 
 Java-DSA/
-├── recursion_lecture17/
-├── recursion_lecture18/
-├── recursion_lecture19/
-├── recursion_lecture20/
-├── mergeSort_lecture22/
-├── quickSort_lecture23/
-├── linkedList_lecture27/
-├── Sudoku_lecture21/
+├── Recursion/
+│   ├── Lecture17/
+│   ├── Lecture18/
+│   ├── Lecture19/
+│   └── Lecture20/
+├── Sorting/
+│   ├── MergeSort/
+│   └── QuickSort/
+├── LinkedList/
+│   └── Lecture27/
+├── Sudoku/
+│   └── Lecture21/
 └── README.md
+
 ## How to Use
 1. Clone the repository to your local machine.
 2. Navigate to the directory of the problem you want to work on.
