@@ -14,9 +14,28 @@ public class RevArray {
             
         }
     }
+    static void revArrayViaRecursion(int arr[],int strtIdx,int lstIdx){
+        if(strtIdx>lstIdx){
+            return;
+        }
+        
+        int temp = arr[strtIdx];
+        arr[strtIdx] = arr[lstIdx];
+        arr[lstIdx]= temp;
+
+        revArrayViaRecursion(arr, strtIdx+1, lstIdx-1);
+    }
     public static void main(String[] args) {
         int arr[]= {1,2,3,4,5,6,7};
         reverseArray(arr);
+        
+        for(int ctr=0;ctr<arr.length;ctr++){
+            System.out.print(arr[ctr]+ " ");
+        }
+
+System.out.println("");
+
+        revArrayViaRecursion(arr,0,arr.length-1);
         
         for(int ctr=0;ctr<arr.length;ctr++){
             System.out.print(arr[ctr]+ " ");
